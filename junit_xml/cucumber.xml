@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.218349">
+    <testcase classname="Checkboxes in the checkbox page" name="Testing checkboxes functionality" time="7.218349">
+        <system-out>
+            <![CDATA[Given user is on homepage...................................................passed
+When user clicks to the Checkboxes link.....................................passed
+Then user sees the Checkboxes text..........................................passed
+When user clicks to the first check box.....................................passed
+Then checkbox will be checked...............................................passed
+When user clicks to the second check box....................................passed
+Then checkbox will be unchecked.............................................passed
+And user quits the browser..................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

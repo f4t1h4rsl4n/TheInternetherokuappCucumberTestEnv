@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Testing checkboxes functionality",
+        "description": "",
+        "id": "checkboxes-in-the-checkbox-page;testing-checkboxes-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259268700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "CheckboxTests.userIshomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 183003300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks to the Checkboxes link",
+            "match": {
+              "location": "CheckboxTests.userClicksToTheCheckboxesLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30264400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user sees the Checkboxes text",
+            "match": {
+              "location": "CheckboxTests.userSeesTheCheckboxesText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61043600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks to the first check box",
+            "match": {
+              "location": "CheckboxTests.userClicksToTheFirstCheckBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15220100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "checkbox will be checked",
+            "match": {
+              "location": "CheckboxTests.isCheckbox1Checked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46088600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks to the second check box",
+            "match": {
+              "location": "CheckboxTests.userClicksToTheSecondCheckbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12035800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "checkbox will be unchecked",
+            "match": {
+              "location": "CheckboxTests.isCheckbox2Checked()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 611424800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user quits the browser",
+            "match": {
+              "location": "CheckboxTests.userQuitsTheBrowser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Checkboxes in the checkbox page",
+    "description": "",
+    "id": "checkboxes-in-the-checkbox-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/artem/IdeaProjects/theinternetherokuappTestProject/src/main/java/features/fate.feature"
+  }
+]

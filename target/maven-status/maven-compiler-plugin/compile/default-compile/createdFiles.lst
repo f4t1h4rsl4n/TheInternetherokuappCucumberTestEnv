@@ -1,0 +1,4 @@
+stepdefinition\CheckboxTests.class
+framework\CheckboxPage.class
+utils\BaseTest.class
+framework\HomePage.class
